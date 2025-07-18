@@ -1,0 +1,123 @@
+
+:root{
+    --couleur-font:rgba(182, 230, 182, 0.877);
+    --couleur-zonetexte: rgba(white);
+    --couleur-decor:wheate;
+    --couleur-jolie:orange;
+    --couleur-formulaire:rgba(22, 160, 240, 0.644);
+    --couleur-arplanetud:rgb(233, 221, 202);
+    --couleur-surpasser:rgb(225, 232, 240);
+    --couleur-body:  rgba(160,  190, 236);
+     
+}
+
+input:focus{
+    background-color:aliceblue;
+    border-color:aliceblue;
+    border:solid 2px;
+}
+
+
+
+.formulairepersonnel{
+    align-content: top;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    width:40% ;
+    height: 90%;
+    background-color: rgba(25, 95, 226, 0.699);
+    border-radius: 4em;
+    margin-left:30%;
+    padding-left: 15px ;
+    padding-top: 5px;
+	margin-top:10%;
+}
+
+.tittreformulaire{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+	
+   
+}
+.titreformulaire h4{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(25, 95, 226, 0.699);
+    background-color: aliceblue;
+     margin-top:-5px;
+	 margin-left:-10px;
+	 width:102%;
+	 height:60px;
+	 border-top-right-radius: 4em;
+	 border-top-left-radius: 4em;
+    font-size:larger;
+}
+
+.lab{
+    position: absolute;
+    margin-top:-18px;
+    margin-left: 6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+}
+.tex{
+    position:relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    border-style: none;
+    width: 70%;
+    height: 25px;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5rem;
+    border-top: solid 1px;
+    border-color: blue;
+    
+}
+.tex img{
+    visibility: hidden;
+   }
+.tex:active img{
+ visibility: hidden;
+}
+
+
+.boutonvalider{
+    width: 65%;
+    height: 26px;
+    box-shadow:0px 7px 4px;
+    background-color: blue;
+    border: 0px;
+  
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5rem;
+    color:red;
+}
+
+.boutonvalider:hover {
+    width: 95%;
+    height: 26px;
+    background-color:white;
+    border: 0px;
+    border-inline-width:60px; 
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5rem;
+    color:blue;
+}
+.boutonvalider:active{
+    width: 65%;
+    height: 26px;
+    background-color:green;
+    box-shadow:0px 0px 0px;
+    border: 0px;
+    border-inline-width:60px; 
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5rem; 
+    color:aliceblue;
+    border: 2px solid;
+    border-color: red;    
+}

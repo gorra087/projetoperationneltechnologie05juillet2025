@@ -1,0 +1,90 @@
+.navb{
+      width: 100%;
+      height: 60px;
+      background-color: blue;
+      position: fixed;
+    top: 0px;
+    }
+	
+	a{
+	    text-decoration: none;
+	   }
+	   
+	   .imager{
+	       margin-top: 15px;
+	         width:90%;
+	         height:50px;}
+ 
+			 
+.alignementnav{
+	display: flex;
+	flex-direction: row;
+     gap: 4%; 
+	width:90%;
+	margin-top:10px;
+	margin-left:10px;
+	align-content:center;
+	font-size:xx-smaller;
+}
+
+.imagealigne{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 200px;
+}
+
+.imagealigne img{
+	width:30px;
+	height:30px;
+	border-radius:100px;
+}
+
+.imagealigne img:hover{
+	transition:2s;
+	scale:1.5;
+	
+}
+
+.largeur{
+	width:200px;
+	height:60px;
+	margin-left:30px;
+}
+.menu2 li{
+	margin:5px;
+	width:120px;
+	text-align:center;
+}
+.menu2 a:hover{
+	color:green;
+	font-weight:bold;
+}
+.menu2 li:hover{
+	background-color:white;
+	border-radius:4em;
+}
+
+.point{
+	font-size:0.7em;
+}
+
+.photo{
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	margin-right:3px;
+}
+.photo:hover{
+	transition:2s;
+	scale:10;
+	margin-top:20%;
+	margin-left:30%;
+}
+ .profil{
+	margin-top:15px;
+	width:12%;
+	height:30px;
+	background-color:aliceblue;
+	border-radius:4em;
+ }

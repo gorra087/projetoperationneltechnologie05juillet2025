@@ -1,0 +1,60 @@
+.profiles{
+   margin-left:35%;
+   margin-top:20%;
+   display: flex;
+   flex-direction: row;
+   gap:30px;
+   align-content: center;
+   align-items: center;
+  }
+  .etudiantprofile{
+      border:1px solid chartreuse;
+      width: 20%;
+      height:40px;
+      background-color: chartreuse;
+       text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: larger;
+      color: rgb(21, 233, 127);
+      padding-top: 5px;box-sizing: border-box;
+
+     }
+.personnelprofile{
+ border:1px solid rgb(207, 22, 84);
+ width: 20%;
+ height:40px;
+ background-color: rgb(207, 22, 84);
+ box-sizing: border-box;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: larger;
+ color: aliceblue;
+ padding-top: 5px;
+}
+
+.etudiantprofile:hover{
+	transition:2s;
+ width:30%;
+ height:40px;
+ transition: 2s;
+ box-shadow: 3px -5px 10px inset;
+ background-color: aliceblue;
+ color:blue;
+ border:none;
+ border-bottom-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+
+.personnelprofile:hover{
+ transition: 2s;
+ width:30%;
+ box-shadow: 3px -5px 10px inset;
+ background-color: aliceblue;
+ color:blue;
+ border:none;
+ border-bottom-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+a{
+ text-decoration: none;
+}
